@@ -1,7 +1,10 @@
 import React from "react";
 import logo from "../assets/img/logo_arabics.svg";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="flex waveyBg  px-8 py-1 justify-between items-center bg-primary">
@@ -24,7 +27,7 @@ const NavBar = () => {
           <p
             className="cursor-pointer text-sm space2 link p-1"
             onClick={() => {
-              location.href = "projects";
+              navigate("/projects");
             }}>
             Projects
           </p>
