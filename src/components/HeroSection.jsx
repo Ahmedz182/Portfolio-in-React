@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="HeroSection waveyBg h-auto py-16 flex flex-row flex-wrap mt-[-30px]  items-center sm:h-auto sm:mt-0 sm:pt-10 s-md:justify-items-center  sm:justify-items-center ">
         <div className="  w-[60%] md:w-[62%] s-md:w-screen flex flex-col gap-3  ps-20 px-12 sm:w-scrreen sm:ps-12 ">
           <p className="px-1">Hi ✨I am,</p>
-          <span className="uppercase text-6xl md:text-4xl s-md:text-3xl sm:text-2xl name ">
+          <span className="uppercase text-6xl md:text-4xl s-md:text-4xl sm:text-2xl name ">
             <span className="space">Muhammad</span>
             <div className="mt-4 devName">
               <span className="text-pink space2 cursor-pointer  link  hover:text-white">
