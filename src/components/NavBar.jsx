@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../assets/img/logo_arabics.svg";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <>
@@ -27,7 +27,8 @@ const NavBar = () => {
           <p
             className="cursor-pointer text-sm space2 link p-1"
             onClick={() => {
-              navigate("/projects");
+              // navigate("/projects");
+              location.href = "/projects";
             }}>
             Projects
           </p>
