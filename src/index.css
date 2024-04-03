@@ -253,3 +253,8 @@ mark:before {
   background-color: #fff;
   border-color: #fff;
 }
+.resNav {
+  z-index: 1000;
+  height: 90dvh;
+  width: 100dvw;
+}
