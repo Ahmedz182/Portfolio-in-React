@@ -36,22 +36,22 @@ const NavBar = ({ Showmenu, setShowmenu }) => {
                 setShowmenu(false);
               }}></i>
           </span>
-          <ul className=" flex flex-col text-3xl resNav gap-4 uppercase items-center justify-center  font-semibold py-1 px-2 cursor-pointer z-50 transform duration-300 ease-linear  ">
+          <ul className=" flex flex-col text-3xl resNav gap-4 uppercase  items-center   font-semibold py-1 px-2 cursor-pointer z-50 transform duration-300 ease-linear  ">
             <NavLink
               to="/"
               activeClassName="font-bold"
               onClick={() => {
                 setShowmenu(false);
               }}>
-              <li className=" hover:font-bold link">Home</li>
+              <li className=" link">Home</li>
             </NavLink>
             <NavLink
               to="/projects"
-              activeClassName="font-bold "
+              activeClassName="font-bold"
               onClick={() => {
                 setShowmenu(false);
               }}>
-              <li className=" hover:font-bold link">Projects</li>
+              <li className=" link">Projects</li>
             </NavLink>
             <NavLink
               to="/contact"
@@ -59,7 +59,7 @@ const NavBar = ({ Showmenu, setShowmenu }) => {
               onClick={() => {
                 setShowmenu(false);
               }}>
-              <li className=" hover:font-bold link">Contact</li>
+              <li className="link">Contact</li>
             </NavLink>
           </ul>
         </div>
