@@ -3,8 +3,10 @@ import rocket from "../assets/img/rocket.png";
 import ui from "../assets/img/ui.png";
 import ux from "../assets/img/ux.png";
 import CV from "../assets/AhmedCv.pdf";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const HireMe = () => {
+  const notify = () => toast("Downloading CV");
   return (
     <>
       <div className="bg-primary flex flex-wrap p-10 gap-24 items-center justify-center py-20">
@@ -58,7 +60,9 @@ const HireMe = () => {
             innovation and excellence.
           </p>
           <a href={CV} download={CV}>
-            <button className="btn rounded-full mt-3 bg-pink w-[170px] p-4 text-sm  shadow-xl shadow-pink/50 mx-40 transition ease-in-out delay-150 hover:translate-y-[-10px] duration-500">
+            <button
+              onClick={notify}
+              className="btn rounded-full mt-3 bg-pink w-[170px] p-4 text-sm  shadow-xl shadow-pink/50 mx-40 transition ease-in-out delay-150 hover:translate-y-[-10px] duration-500">
               Download My CV
             </button>
           </a>

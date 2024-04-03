@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Technology from "../components/technology";
 import AboutMe from "../components/AboutMe";
 import ContactMe from "../components/ContactMe";
+import { ToastContainer } from "react-toastify";
 
 const Home = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <>
       <div className="overflow-x-hidden">
+        <ToastContainer theme="dark" />
         <HeroSection />
         <AboutMe />
         <Technology />
