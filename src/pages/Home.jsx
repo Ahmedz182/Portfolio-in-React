@@ -4,6 +4,8 @@ import HireMe from "../components/HireMe";
 import Projects from "../components/Projects";
 import { useEffect } from "react";
 import Technology from "../components/technology";
+import AboutMe from "../components/AboutMe";
+import ContactMe from "../components/ContactMe";
 
 const Home = () => {
   useEffect(() => {
@@ -13,9 +15,11 @@ const Home = () => {
     <>
       <div className="overflow-x-hidden">
         <HeroSection />
+        <AboutMe />
         <Technology />
         <HireMe />
         <Projects />
+        <ContactMe />
       </div>
     </>
   );

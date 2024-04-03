@@ -24,7 +24,11 @@ const NavBar = () => {
             }}>
             Home
           </p>
-          <p className="cursor-pointer text-sm space2 link p-1">About</p>
+          {/* <p
+            className="cursor-pointer text-sm space2 link p-1"
+            onClick={scrollToAbout}>
+            About
+          </p> */}
           <p
             className="cursor-pointer text-sm space2 link p-1"
             onClick={() => {
@@ -33,7 +37,14 @@ const NavBar = () => {
             }}>
             Projects
           </p>
-          <p className="cursor-pointer text-sm space2 link p-1 ">Contact me</p>
+          <p
+            className="cursor-pointer text-sm space2 link p-1"
+            onClick={() => {
+              navigate("/contact");
+              // location.href = "/projects";
+            }}>
+            Contact me
+          </p>
         </div>
       </div>
     </>
