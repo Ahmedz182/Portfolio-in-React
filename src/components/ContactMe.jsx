@@ -7,7 +7,7 @@ const ContactMe = () => {
         <mark>Contact Me</mark>
       </p>
       <div className="form-container">
-        <form className="form">
+        <form className="form  mx-3">
           <div className="form-group">
             <label for="name">Name</label>
             <input required="" name="name" id="name" type="text"></input>
