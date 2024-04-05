@@ -17,7 +17,7 @@ const Home = () => {
       <div className="overflow-x-hidden">
         <ToastContainer theme="dark" />
         <HeroSection />
-        <AboutMe />
+        <AboutMe data-aos="fade-up-right" />
         <Technology />
         <HireMe />
         <Projects />

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap gap-12 items-center justify-center sm:gap-4 sm:justify-start sm:px-5 s-md:gap-4  s-md:px-5">
           <a href="tel:+923246983182">
             <div className="bg-primary flex gap-2 items-center p-5 rounded cursor-pointer transition ease-in-out delay-150 hover:translate-y-[-10px] duration-500">
-              <i className="ri-map-pin-line text-4xl text-pink"></i>
+              <i className="ri-phone-fill text-4xl text-pink"></i>
               <span className="flex flex-col gap-1">
                 <p className=" font-bold ">Call Me</p>
 
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <a href="mailto:ahmedmughal3182@gmail.com">
             <div className="bg-primary flex gap-2 items-center p-5 rounded cursor-pointer transition ease-in-out delay-150 hover:translate-y-[-10px] duration-500">
-              <i className="ri-map-pin-line text-4xl text-pink"></i>
+              <i className="ri-mail-line text-4xl text-pink"></i>
               <span className="flex flex-col gap-1">
                 <p className=" font-bold ">Mail Me</p>
                 <p className="text-sm text-white/70">

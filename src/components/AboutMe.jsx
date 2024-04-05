@@ -9,7 +9,7 @@ const AboutMe = () => {
         </p>
         <div>
           <div className="flex px-10 gap-4 items-center justify-around py-5 sm:flex-col s-md:flex-col sm:gap-8 s-md:gap-8">
-            <div>
+            <div data-aos="fade-up-right">
               <img
                 className="admin-img"
                 src="https://res.cloudinary.com/dgjwycw2u/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1708247942/dev_dfh3yt.jpg?_s=public-apps"
